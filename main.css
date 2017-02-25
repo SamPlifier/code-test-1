@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:inline;
+}
+li {
+    display: inline;
+    text-align:center;
+    margin: 0 20px
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+ul:nth-child(even) {
+    background: #cff1ff;
+}
