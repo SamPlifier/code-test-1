@@ -47,7 +47,7 @@ function makeContactList() {
             table_data[i].last_name = '(none)';
         }
     }
-    const names = table_data.map(table_data => `${table_data.first_name} ${table_data.last_name} ${table_data.home}`);
+    const names = table_data.map(table_data => `${table_data.first_name} ${table_data.last_name}, ${table_data.home}`);
 
     for (let i = 0; i < table_data.length; i++) {
         document.write('<ul><li>'+names[i]+'</li></ul>');
