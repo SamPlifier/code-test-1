@@ -1,13 +1,12 @@
-ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    display:inline;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 li {
     display: inline;
     text-align:center;
-    margin: 0 20px
 }
 
 body {
@@ -19,4 +18,7 @@ body {
 }
 ul:nth-child(even) {
     background: #cff1ff;
+}
+#headerUl, ul {
+    margin: 5px;
 }
